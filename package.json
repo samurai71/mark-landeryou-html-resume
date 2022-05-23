@@ -25,7 +25,7 @@
     "vite": "^2.9.9"
   },
   "lint-staged": {
-    "*/**/.js": [
+    "*/**/*.js": [
       "npm run lint",
       "prettier --write"
     ]
