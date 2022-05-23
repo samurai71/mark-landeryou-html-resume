@@ -58,11 +58,6 @@ Add additional notes to deploy this on a live system
 - [Creative Commons](https://creativecommons.org/) - Used to choose
   the license
 
-## Contributing
-
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code
-of conduct, and the process for submitting pull requests to us.
-
 ## Versioning
 
 We use [Semantic Versioning](http://semver.org/) for versioning. For the versions
@@ -71,17 +66,13 @@ repository](https://github.com/PurpleBooth/a-good-readme-template/tags).
 
 ## Authors
 
-- **Billie Thompson** - _Provided README Template_ -
-  [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of
-[contributors](https://github.com/PurpleBooth/a-good-readme-template/contributors)
-who participated in this project.
+- **Mark Landeryou** -
+  [samurai71](https://github.com/samurai71)
 
 ## License
 
-This project is licensed under the [CC0 1.0 Universal](LICENSE.md)
-Creative Commons License - see the [LICENSE.md](LICENSE.md) file for
+This project is licensed under the [CC0 1.0 Universal](license.md)
+Creative Commons License - see the [LICENSE.md](license.md) file for
 details
 
 ## Acknowledgments
