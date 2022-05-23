@@ -8,7 +8,7 @@
     "ecmaVersion": "latest",
     "sourceType": "module"
   },
-  "plugins": ["prettier", "tailwindcss"],
+  "plugins": ["prettier"],
   "rules": {
     "semi": 0,
     "comma-dangle": 0,
