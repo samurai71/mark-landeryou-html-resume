@@ -2,7 +2,7 @@
 /* eslint-disable no-undef */
 /* eslint-disable prettier/prettier */
 import './styles.css'
-import './backToTop.js'
+//import './backToTop.js'
 
 // document.querySelector('#app').innerHTML = `
 //   <h1>Hello Vite!</h1>
