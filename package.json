@@ -29,5 +29,8 @@
       "npm run lint",
       "prettier --write"
     ]
+  },
+  "dependencies": {
+    "gsap": "^3.10.4"
   }
 }
