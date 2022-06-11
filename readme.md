@@ -71,9 +71,7 @@ repository](https://github.com/PurpleBooth/a-good-readme-template/tags).
 
 ## License
 
-This project is licensed under the [CC0 1.0 Universal](license.md)
-Creative Commons License - see the [LICENSE.md](license.md) file for
-details
+This project is licensed under the [MIT License](license.md).
 
 ## Acknowledgments
 
