@@ -3,7 +3,11 @@
 module.exports = {
   content: ['./index.html'],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        caveat: "'Caveat', cursive",
+      },
+    },
   },
   plugins: [],
 }
