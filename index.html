@@ -44,17 +44,48 @@
       </nav>
 
       <div
-        class="content-wrap bg-blue-900 pt-7 pb-7 pl-7 pr-7 columns-2 sm:columns-1"
+        class="content-wrap bg-blue-900 pt-10 pb-10 pl-7 pr-7 columns-2 sm:columns-1"
       >
+        <!--<div
+          class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl"
+        >
+          <div class="md:flex">
+            <div class="md:shrink-0">
+              <img
+                class="h-48 w-full object-cover md:h-full md:w-48 profile-img"
+                src="./src/images/Mark_blackshirt.jpg"
+                alt="Mark Landeryou Picture"
+              />
+            </div>
+            <div class="p-8">
+              <div
+                class="uppercase tracking-wide text-sm text-indigo-500 font-semibold"
+              >
+                Case study
+              </div>
+              <a
+                href="#"
+                class="block mt-1 text-lg leading-tight font-medium text-black hover:underline"
+                >Finding customers for your new business</a
+              >
+              <p class="mt-2 text-slate-500">
+                Getting a new business off the ground is a lot of hard work.
+                Here are five ideas you can use to find your first customers.
+              </p>
+            </div>
+          </div>
+        </div>-->
         <div class="md:container md:mx-auto">
           <img
-            class="profile-img col-narrow ml-4 float-left"
+            class="profile-img col-narrow ml-4 mr-4 float-left"
             src="./src/images/Mark_blackshirt.jpg"
             alt="Mark Landeryou"
           />
           <div class="col-wide bg-blue-900 ml-4">
-            <h1 class="text-slate-50 font-caveat">Mark Landeryou</h1>
-            <h2 class="text-slate-50 font-caveat">Web Developer + Artisan</h2>
+            <h1 class="text-slate-50 font-caveat text-6xl">Mark Landeryou</h1>
+            <h2 class="text-slate-50 font-caveat text-5xl">
+              Web Developer + Artisan
+            </h2>
             <p class="text-slate-50">
               As a developer, I specialize in creating modular and scalable
               front and back-end architectures. As an artisan, I focus on
@@ -70,7 +101,7 @@
       <div class="pt-7 pb-7 pl-7 pr-7">
         <section id="summary" class="summary container mx-auto">
           <div class="content-wrap">
-            <h2 class="font-caveat">Summary of Qualifications</h2>
+            <h2 class="font-caveat text-5xl pb-2">Summary of Qualifications</h2>
             <ul class="list-disc">
               <li>Proficient with Microsoft, Mac, and Linux/Unix Platforms</li>
               <li>
@@ -92,11 +123,11 @@
       <div class="pt-7 pb-7 pl-7 pr-7">
         <section id="work" class="work container mx-auto">
           <div class="content-wrap">
-            <h2 class="font-caveat">Work Experience</h2>
+            <h2 class="font-caveat text-5xl pb-2">Work Experience</h2>
 
             <!-- Job 1 Details -->
             <div class="col-narrow">
-              <h3>Web Developer & Graphic Design</h3>
+              <h3 class="font-bold">Web Developer & Graphic Design</h3>
               <p class="uppercase">Independent / Freelance</p>
               <p>2014 - Present</p>
             </div>
@@ -110,15 +141,18 @@
               </p>
               <p>
                 See more at
-                <a href="http://marklanderyou.ca" target="_blank"
+                <a
+                  href="http://marklanderyou.ca"
+                  class="text-red-600 hover:text-blue-700"
+                  target="_blank"
                   >marklanderyou.ca</a
                 >.
               </p>
             </div>
-
+            <br />
             <!-- Job 2 Details -->
             <div class="col-narrow">
-              <h3>Technical Support Representative</h3>
+              <h3 class="font-bold">Technical Support Representative</h3>
               <p class="uppercase">Stream</p>
               <p>2007 - 2008</p>
             </div>
@@ -131,10 +165,10 @@
               </p>
               <p>The client I was under contract for was Time Warner Cable.</p>
             </div>
-
+            <br />
             <!-- Job 3 Details -->
             <div class="col-narrow">
-              <h3>Computer Consultant</h3>
+              <h3 class="font-bold">Computer Consultant</h3>
               <p class="uppercase">Landtech Computer Consulting</p>
               <p>2006 - 2011</p>
             </div>
@@ -147,7 +181,7 @@
                 <li>Repaired and purchased new computer equipment.</li>
                 <li>Designed and developed web sites for clients.</li>
               </ul>
-
+              <br />
               <p>
                 See my complete work history on
                 <a
@@ -166,23 +200,23 @@
       <div class="pt-7 pb-7 pl-7 pr-7">
         <section id="education" class="education container mx-auto">
           <div class="content-wrap">
-            <h2 class="font-caveat">Education</h2>
+            <h2 class="font-caveat text-5xl pb-2">Education</h2>
 
             <!-- School 1 details. -->
-            <h3>Lambton College - Sarnia, ON</h3>
+            <h3 class="font-bold">Lambton College - Sarnia, ON</h3>
             <p>Web Specialist and IoT, 2019</p>
             <p>Learned about being a web specialist as well as IoT.</p>
-
+            <br />
             <!-- School 1 details. -->
-            <h3>Fanshawe College - London, ON</h3>
+            <h3 class="font-bold">Fanshawe College - London, ON</h3>
             <p>Interactive Media Design, 2015-2018</p>
             <p>Media design, 3D animation for interactive media.</p>
-
+            <br />
             <!-- School 2 details. -->
             <h3>Fanshawe College - London, ON</h3>
             <p>Graphic Design, 2012-2015</p>
             <p>Graphic Design Program learning design principles.</p>
-
+            <br />
             <!-- School 3 details. -->
             <h3>Lambton College, Sarnia, ON</h3>
             <p>Information Technology Professional , 2002-2003</p>
@@ -198,7 +232,7 @@
       <div class="pt-7 pb-7 pl-7 pr-7">
         <section id="computer" class="computer container mx-auto">
           <div class="content-wrap">
-            <h2 class="font-caveat">Computer Skills</h2>
+            <h2 class="font-caveat text-5xl pb-2">Computer Skills</h2>
             <div class="col-narrow">
               <ul class="list-disc">
                 <li>HTML5</li>
@@ -237,14 +271,14 @@
     </main>
 
     <!-- // Footer & contact info -->
-    <footer id="contact" class="bg-blue-900 pt-3 pb-3">
+    <footer id="contact" class="bg-blue-900 pt-7 pb-7">
       <div class="content-wrap">
-        <h2 class="text-slate-50 text-center font-caveat">
+        <h2 class="text-slate-50 text-center font-caveat text-5xl pb-2">
           Let's Keep in Touch!
         </h2>
 
         <!-- Social media links. Add or remove any networks. -->
-        <div class="contact-info text-slate-50 text-center">
+        <div class="contact-info text-slate-50 text-center space-x-3">
           <a href="mailto:marklanderyou@hotmail.com"
             >marklanderyou@hotmail.com</a
           >
