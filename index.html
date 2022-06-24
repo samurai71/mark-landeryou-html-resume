@@ -18,14 +18,21 @@
       rel="stylesheet"
     />
   </head>
-  <body class="bg-slate-50">
+  <body class="bg-slate-50 print:text-black">
     <!-- // Intro -->
-    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <button
+      onclick="topFunction()"
+      id="myBtn"
+      title="Go to top"
+      class="print:hidden"
+    >
+      Top
+    </button>
     <header id="about">
       <!-- <a href="resume.pdf" download class="btn download">Download PDF</a> -->
       <nav
         id="MainNav"
-        class="mt-2 mb-2 w-full pt-3 pb-3 space-x-6 text-transform: uppercase font-bold flex flex-row flex-wrap justify-center"
+        class="mt-2 mb-2 w-full pt-3 pb-3 space-x-6 text-transform: uppercase font-bold flex flex-row flex-wrap justify-center print:hidden"
       >
         <a href="#about" class="text-red-600 hover:text-blue-700">About</a>
         <a href="#summary" class="text-red-600 hover:text-blue-700"
@@ -78,7 +85,7 @@
         <div class="md:container md:mx-auto">
           <div class="basic-1/3">
             <img
-              class="profile-img col-narrow ml-4 mr-4 float-left w-100 h-100"
+              class="profile-img col-narrow ml-4 mr-4 float-left w-100 h-100 print:hidden"
               src="./src/images/Mark_blackshirt.jpg"
               alt="Mark Landeryou"
             />
@@ -307,6 +314,6 @@
     </footer>
 
     <script type="module" src="./src/main.js"></script>
-    <script src="./src/scrolltoTop.js"></script>
+    <script src="./src/scrolltoTop.js" rel="text/javascript"></script>
   </body>
 </html>
